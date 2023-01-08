@@ -11,5 +11,5 @@ urlpatterns = [
     path("coutses/", views.CoursesPageView.as_view()),
     path("contacts/", views.ContactsPageView.as_view()),
     path("doc_site/", views.DocSitePageView.as_view()),
-    path("login.html/", views.LoginPageView.as_view()),
+    path("login/", views.LoginPageView.as_view()),
 ]
